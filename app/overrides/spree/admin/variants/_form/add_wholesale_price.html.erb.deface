@@ -1,0 +1,6 @@
+<!-- insert_after "[data-hook='price']" enabled -->
+
+<div class="form-group" data-hook="wholesale_price">
+  <%= f.label :price, Spree.t(:wholesale_price) %>
+  <%= f.text_field :wholesale_price, :value => number_to_currency(@variant.wholesale_price, :unit => ''), :class => 'form-control' %>
+</div>

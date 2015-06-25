@@ -2,12 +2,12 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wholesale'
-  s.version     = '3.0.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '3.0.1'
+  s.summary     = 'Spree Wholesale'
+  s.description = 'Wholesale prices for Spree'
   s.required_ruby_version = '>= 2.0.0'
 
-  # s.author    = 'You'
+  s.authors     = [ 'Tim Hogg' ]
   # s.email     = 'you@example.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 

@@ -1,5 +1,5 @@
 Spree::Product.class_eval do
 
-  delegate :master, :wholesale_price
+  delegate :wholesale_price, to: :master
 
 end
